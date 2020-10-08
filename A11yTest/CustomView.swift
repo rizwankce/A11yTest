@@ -1,18 +1,18 @@
 //
-//  RefreshProgressView.swift
+//  CustomView.swift
 //  A11yTest
 //
-//  Created by Rizwan on 30/09/20.
+//  Created by Rizwan on 06/10/20.
 //
 
 import Foundation
 import UIKit
 
-class RefreshProgressView: UIView {
-
+class CustomView: UIView {
     @IBOutlet weak var progressView: UIProgressView!
-    @IBOutlet weak var label: UILabel!
 
+    @IBOutlet weak var label: UILabel!
+    
     override func awakeFromNib() {
         update()
     }

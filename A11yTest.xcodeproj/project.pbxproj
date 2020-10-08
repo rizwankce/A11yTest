@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		659EBACB252C96BC000B7055 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 659EBACA252C96BC000B7055 /* CustomView.xib */; };
+		659EBACE252C9797000B7055 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659EBACD252C9797000B7055 /* CustomView.swift */; };
 		65FF2A9E2524C4FC0078B8FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF2A9D2524C4FC0078B8FA /* AppDelegate.swift */; };
 		65FF2AA02524C4FC0078B8FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF2A9F2524C4FC0078B8FA /* SceneDelegate.swift */; };
 		65FF2AA22524C4FC0078B8FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF2AA12524C4FC0078B8FA /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		659EBACA252C96BC000B7055 /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		659EBACD252C9797000B7055 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		65FF2A9A2524C4FC0078B8FA /* A11yTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A11yTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FF2A9D2524C4FC0078B8FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65FF2A9F2524C4FC0078B8FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				65FF2AAB2524C4FD0078B8FA /* Info.plist */,
 				65FF2AB22524C6F30078B8FA /* RefreshProgressView.swift */,
 				65FF2AB52524C7020078B8FA /* RefreshProgressView.xib */,
+				659EBACD252C9797000B7055 /* CustomView.swift */,
+				659EBACA252C96BC000B7055 /* CustomView.xib */,
 			);
 			path = A11yTest;
 			sourceTree = "<group>";
@@ -131,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65FF2AAA2524C4FD0078B8FA /* LaunchScreen.storyboard in Resources */,
+				659EBACB252C96BC000B7055 /* CustomView.xib in Resources */,
 				65FF2AA72524C4FD0078B8FA /* Assets.xcassets in Resources */,
 				65FF2AA52524C4FC0078B8FA /* Main.storyboard in Resources */,
 				65FF2AB62524C7020078B8FA /* RefreshProgressView.xib in Resources */,
@@ -144,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				659EBACE252C9797000B7055 /* CustomView.swift in Sources */,
 				65FF2AA22524C4FC0078B8FA /* ViewController.swift in Sources */,
 				65FF2A9E2524C4FC0078B8FA /* AppDelegate.swift in Sources */,
 				65FF2AA02524C4FC0078B8FA /* SceneDelegate.swift in Sources */,
