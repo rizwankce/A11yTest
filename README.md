@@ -1,5 +1,10 @@
 # A11yTest
 
+
+>Edit :- 8th OCT 2020
+
+>Finally found a fix, it turns out issues with storyboard. When i created the same view from scratch it was working perfectly.
+
 Custom `UIBarButtonItem` is failing to read out by voice over.
 
 I have the below setup, tool bar is having 2 system icons with images, 2 flexible space bar button items and a custom view with label and progressview.
